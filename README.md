@@ -78,5 +78,3 @@ Because PIT does not guarantee a consistent mapping between output slot and spea
 across examples, any evaluation or listening comparison must re-derive the best permutation
 per example rather than assuming a fixed slot order.
 
-## Final Results
-

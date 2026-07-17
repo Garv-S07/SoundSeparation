@@ -41,6 +41,7 @@ applies three sub-modules in sequence:
 
 `BMamba` itself runs two independent Mamba modules over a sequence and its time-reversed
 counterpart, then sums the two directions, to obtain bidirectional context.
+
 ### Mask Estimation and Output Heads
 
 After the block stack, a single `Conv2d` produces `2 * n_src` output channels, reshaped into

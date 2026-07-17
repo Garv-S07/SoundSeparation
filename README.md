@@ -14,7 +14,7 @@ sound separation. We have also tried another approach which is based on OrPIT + 
 
 ## Architecture Diagram
 
-https://github.com/Garv-S07/SoundSeparation/tree/main/architecture/Architecture_Diagram.jpg
+https://github.com/Garv-S07/SoundSeparation/tree/main/architecture/Architecture_Diagram.jpg?raw=True
 
 ### Encoder / Decoder
 

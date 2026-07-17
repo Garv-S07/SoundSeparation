@@ -78,3 +78,21 @@ Because PIT does not guarantee a consistent mapping between output slot and spea
 across examples, any evaluation or listening comparison must re-derive the best permutation
 per example rather than assuming a fixed slot order.
 
+### Citations
+
+- https://github.com/JusperLee/SPMamba
+- https://arxiv.org/pdf/2508.10830
+- https://docs.pytorch.org/audio/stable/search.html?q=audio&check_keywords=yes&area=default
+- https://www.youtube.com/watch?v=9dSkvxS2EB0&t=45s
+- https://github.com/state-spaces/mamba/tree/main
+- https://www.youtube.com/watch?v=4KpRP-YUw6c&list=PLGP2q2bIgaNzBBpxxNUf126chLsQ20dfG
+- https://www.youtube.com/watch?v=BjRVS2wTtcA&list=PLkBMe2eZMRQ2VKEtoL0GVUrNzEiXfgj07
+- https://www.youtube.com/watch?v=iCwMQJnKk2c&list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0
+- https://arxiv.org/pdf/2003.12687
+- https://arxiv.org/pdf/2508.10830
+- https://arxiv.org/abs/2401.14185
+- https://arxiv.org/abs/1809.07454
+- https://www.isca-archive.org/interspeech_2022/chetupalli22_interspeech.pdf
+- https://arxiv.org/pdf/1607.00325
+- https://cdn.openai.com/papers/whisper.pdf
+- https://arxiv.org/html/2407.09817v1

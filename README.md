@@ -31,18 +31,16 @@ The 2-channel spectrogram is projected to a `d_model`-dimensional feature map vi
 followed by `GroupNorm`, then passed through a stack of `SPMambaBlock` modules. Each block
 applies three sub-modules in sequence:
 
-1. **FDModule (frequency-domain)** — a bidirectional Mamba block (`BMamba`) applied along the
+1. **FDModule (frequency-domain)**: a bidirectional Mamba block (`BMamba`) applied along the
    frequency axis, independently at every time frame.
-2. **TDModule (time-domain)** — the same bidirectional Mamba block applied along the time axis,
+2. **TDModule (time-domain)**: the same bidirectional Mamba block applied along the time axis,
    independently at every frequency bin.
-3. **TFAModule (time-frame attention)** — each frame is pooled across frequency into a single
+3. **TFAModule (time-frame attention)**: each frame is pooled across frequency into a single
    embedding, self-attention is computed across frames for global temporal context, and the
    result is broadcast back across the frequency axis. 
 
 `BMamba` itself runs two independent Mamba modules over a sequence and its time-reversed
-counterpart, then sums the two directions — a standard way to obtain bidirectional context from
-a causal sequence model.
-
+counterpart, then sums the two directions, to obtain bidirectional context.
 ### Mask Estimation and Output Heads
 
 After the block stack, a single `Conv2d` produces `2 * n_src` output channels, reshaped into
